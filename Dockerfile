@@ -10,4 +10,4 @@ RUN bundle install --without test
 COPY ./lib .
 ENV APP_ENV=production
 
-CMD ["ruby", "./cookbooksupermarketuploader.rb", "-o", "0.0.0.0"]
+CMD ["ruby", "./deployment_status_slack_notifier.rb", "-o", "0.0.0.0"]
