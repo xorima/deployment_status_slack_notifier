@@ -11,9 +11,9 @@ This app uses the following environments variables:
 | Name | Required | Description |
 | ---| --- | ---|
 | SECRET_TOKEN | Yes| If supplied it will do a HMAC check against the incomming request |
-| SUCCESS_HOOKS | Yes | A csv of slack app webhooks to send success messages to  |
-| FAILURE_HOOKS | Yes | A csv of slack app webhooks to send failure messages to |
-| ERROR_HOOKS | Yes | A csv of slack app webhooks to send error messages to |
+| SUCCESS_WEBHOOKS | Yes | A csv of slack app webhooks to send success messages to  |
+| FAILURE_WEBHOOKS | Yes | A csv of slack app webhooks to send failure messages to |
+| ERROR_WEBHOOKS | Yes | A csv of slack app webhooks to send error messages to |
 
 ### Webhook
 

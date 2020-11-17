@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 
 gem 'hashie'
 gem 'httparty'
+gem 'sinatra'
 
 group :test do
   gem 'rack-test'
