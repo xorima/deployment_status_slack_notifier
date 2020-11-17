@@ -2,7 +2,7 @@
 
 This file is used to list changes made in Deployment_status Slack Notifier.
 
-## Unreleased
+## 1.1.0 - *2020-11-17*
 
 - Fixed bug in dockerfile name
 - Include correct gems
