@@ -4,6 +4,8 @@ This file is used to list changes made in Deployment_status Slack Notifier.
 
 ## Unreleased
 
+- Fixed bug with dockerhub push due to set-env deprecation
+
 ## 1.1.0 - *2020-11-17*
 
 - Fixed bug in dockerfile name
