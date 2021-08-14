@@ -73,9 +73,11 @@ def error_message_body(payload)
   "UNKNOWN ERROR on Release: #{repo_name} version #{version}"
 end
 
-def skip_label?(payload, label)
+def skip_label?(_payload, label)
   return false unless label
+
   label_count = pull_request['labels'].select { |l| l['name'] =~ /^#{label}/i }
   return true if label_count == 1
+
   false
 end
