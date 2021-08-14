@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
-        uses: actions/checkout@main
+        uses: actions/checkout@v2
       - uses: ruby/setup-ruby@v1
       - run: bundle install --with test
       - run: bundle exec rspec
@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
-        uses: actions/checkout@main
+        uses: actions/checkout@v2
       - uses: ruby/setup-ruby@v1
       - run: gem install rubocop
       - run: rubocop

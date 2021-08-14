@@ -14,6 +14,7 @@ This app uses the following environments variables:
 | SUCCESS_WEBHOOKS | Yes | A csv of slack app webhooks to send success messages to  |
 | FAILURE_WEBHOOKS | Yes | A csv of slack app webhooks to send failure messages to |
 | ERROR_WEBHOOKS | Yes | A csv of slack app webhooks to send error messages to |
+| SKIP_LABEL | No | If supplied success notifications will not happen if this label is on the merged PR |
 
 ### Webhook
 
