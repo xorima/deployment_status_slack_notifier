@@ -4,6 +4,8 @@ This file is used to list changes made in Deployment_status Slack Notifier.
 
 ## Unreleased
 
+## 1.2.0 - *2021-08-14*
+
 - add a `SKIP_LABEL` env var to skip success notifications on a specific label
 
 ## 1.1.1 - *2020-11-18*
