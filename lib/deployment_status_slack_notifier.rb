@@ -78,8 +78,6 @@ def skip_label?(payload, label)
 
   payload = JSON.parse(payload['deployment']['payload'])
 
-  label_count = payload['pull_request']['labels'].select { |l| l['name'] =~ /^#{label}/i }
-  return true if label_count == 1
-
-  false
+  labels_matching = payload['pull_request']['labels'].select { |l| l['name'] =~ /^#{label}/i }
+  return labels_matching.count == 1
 end

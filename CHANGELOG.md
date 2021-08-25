@@ -2,6 +2,10 @@
 
 This file is used to list changes made in Deployment_status Slack Notifier.
 
+## 1.2.2 - *2021-08-25*
+
+- Fixed bug with `SKIP_LABEL` where it did not count the labels matching correctly
+
 ## 1.2.1 - *2021-08-24*
 
 - Fixed bug with `SKIP_LABEL` where it stopped sending any notifications
